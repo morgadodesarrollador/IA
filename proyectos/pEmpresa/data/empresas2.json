@@ -1,0 +1,22 @@
+[
+  { "cif": "A00000001", "nombre": "Alpha S.L.", "categoria": "Tecnología", "numempleados": 120, "precioAccion": 45.50 },
+  { "cif": "B00000002", "nombre": "Beta S.A.", "categoria": "Finanzas", "numempleados": 45, "precioAccion": 38.25 },
+  { "cif": "C00000003", "nombre": "Gamma Corp.", "categoria": "Salud", "numempleados": 300, "precioAccion": 72.80 },
+  { "cif": "D00000004", "nombre": "Delta Ltd.", "categoria": "Educación", "numempleados": 20, "precioAccion": 22.15 },
+  { "cif": "E00000005", "nombre": "Epsilon GmbH", "categoria": "Manufactura", "numempleados": 220, "precioAccion": 56.40 },
+  { "cif": "F00000006", "nombre": "Zeta Co.", "categoria": "Retail", "numempleados": 75, "precioAccion": 31.90 },
+  { "cif": "G00000007", "nombre": "Eta Industries", "categoria": "Energía", "numempleados": 150, "precioAccion": 64.70 },
+  { "cif": "H00000008", "nombre": "Theta Holdings", "categoria": "Logística", "numempleados": 60, "precioAccion": 42.35 },
+  { "cif": "I00000009", "nombre": "Iota Partners", "categoria": "Consultoría", "numempleados": 12, "precioAccion": 18.60 },
+  { "cif": "J00000010", "nombre": "Kappa Group", "categoria": "Agro", "numempleados": 90, "precioAccion": 28.45 },
+  { "cif": "AAPL00001", "nombre": "Apple Inc.", "categoria": "Tecnología", "numempleados": 161000, "precioAccion": 185.30 },
+  { "cif": "MSFT00002", "nombre": "Microsoft Corporation", "categoria": "Tecnología", "numempleados": 221000, "precioAccion": 438.50 },
+  { "cif": "AMZN00003", "nombre": "Amazon.com Inc.", "categoria": "Retail", "numempleados": 1540000, "precioAccion": 198.75 },
+  { "cif": "TSLA00004", "nombre": "Tesla Inc.", "categoria": "Manufactura", "numempleados": 128045, "precioAccion": 245.20 },
+  { "cif": "BRK000005", "nombre": "Berkshire Hathaway Inc.", "categoria": "Finanzas", "numempleados": 391500, "precioAccion": 625.40 },
+  { "cif": "JPM000006", "nombre": "JPMorgan Chase & Co.", "categoria": "Finanzas", "numempleados": 316152, "precioAccion": 198.85 },
+  { "cif": "JNJ000007", "nombre": "Johnson & Johnson", "categoria": "Salud", "numempleados": 132000, "precioAccion": 152.30 },
+  { "cif": "PG0000008", "nombre": "Procter & Gamble Co.", "categoria": "Manufactura", "numempleados": 107000, "precioAccion": 167.90 },
+  { "cif": "KO0000009", "nombre": "Coca-Cola Company", "categoria": "Beverage", "numempleados": 199000, "precioAccion": 61.45 },
+  { "cif": "DIS000010", "nombre": "The Walt Disney Company", "categoria": "Entretenimiento", "numempleados": 203000, "precioAccion": 92.55 }
+]

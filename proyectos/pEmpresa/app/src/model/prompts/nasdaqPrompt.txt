@@ -1,0 +1,18 @@
+Devuélveme únicamente un JSON válido que contenga una propiedad llamada "empresas" con un array de objetos que cumplan exactamente con la definición TypeScript siguiente:
+
+{{typeDefinition}}
+
+- Responde SOLO con JSON válido y nada más.
+- Usa los nombres de campos y tipos tal cual en la definición.
+- TODOS los campos deben estar presentes en cada objeto, incluso si algún valor es null.
+- Asegúrate de que "empleados" sea un entero y que "precio", "marketCap", "maxPriceYesterday" y "minPriceYesterday" sean números (float).
+- IMPORTANTE: El campo "precio" debe contener el valor actual de la acción en dólares (cotización por acción).
+- IMPORTANTE: El campo "marketCap" debe contener la capitalización bursátil completa en dólares.
+- IMPORTANTE: El campo "maxPriceYesterday" debe contener el valor máximo de la acción en el día de ayer.
+- IMPORTANTE: El campo "minPriceYesterday" debe contener el valor mínimo de la acción en el día de ayer.
+- Si algún dato no está disponible, pon null, pero nunca omitas el campo.
+
+Ejemplo de formato esperado:
+{{schemaExample}}
+
+Devuelve los datos de las empresas del Nasdaq con su valor de acción actual y los valores máximo y mínimo de la acción en el día de ayer.

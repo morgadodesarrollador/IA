@@ -1,0 +1,31 @@
+replicaCount: 1
+
+image:
+  repository: ollama/ollama
+  tag: latest
+
+service:
+  type: ClusterIP
+  port: 11434
+
+ingress:
+  enabled: true
+  className: nginx
+  host: ollama.jamorgado.es
+
+resources:
+  requests:
+    cpu: "1"
+    memory: "2Gi"
+  limits:
+    cpu: "2"
+    memory: "4Gi"
+
+persistence:
+  enabled: true
+  size: 20Gi
+
+model:
+  list:
+    - llama3:8b
+    - deepseek-coder
