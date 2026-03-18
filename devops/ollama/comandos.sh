@@ -1,6 +1,6 @@
-alias k="kubectl -n ollama"
+alias k-olama="kubectl -n ollama"
 
-k delete ns ollama
+k-olama delete ns ollama
 helm uninstall ollama -n ollama
 
 helm install ollama . -n ollama --create-namespace
