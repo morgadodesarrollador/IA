@@ -8,3 +8,4 @@ kubectl get all -n ollama
 
 kubectl get pods -n ollama -w
 kubectl exec -it deploy/ollama -n ollama -- ollama pull llama3:8b
+kubectl exec -it deploy/ollama -n ollama -- ollama pull deepseek-coder
