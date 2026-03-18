@@ -26,7 +26,7 @@ spec:
               memory: "2Gi"
             limits:
               cpu: "2"
-              memory: "6Gi"
+              memory: "7Gi"
 
       volumes:
         - name: ollama-data
